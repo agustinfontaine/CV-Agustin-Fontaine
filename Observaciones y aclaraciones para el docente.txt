@@ -1,0 +1,11 @@
+Aclaraciones-observaciones para el profesor
+
+Hice varios intentos para ver si encontraba cómo utilizar el principio DRY y de esa manera no repetir html en todas las páginas.
+Lo quise hacer por JS, generando un script que reemplace nav_placeholder, pero no lo logré al tiempo de la entrega. Será para seguir investigando.
+Eso hizo también que luego el html quede bastante "sucio", con cosas que probé y luego no llegué a chequear si las podía sacar sin romper otra cosa.
+
+Por otra parte, no profundicé mucho en la estética porque intenté centrarme en código. Eso hizo que no quede demasiado "bonito".
+
+Por último, me surgió la duda sobre el derecho de cita en programación. Vengo más del ámbito de las sociales, donde todo texto se cita. En este caso puse una cita de una parte que usé, pero hay que citar todo? Por ejemplo, poner en algún lugar las referencias -créditos a los íconos que utilicé, lugares desde donde saqué partes del código, etc?
+
+Gracias por el curso.
