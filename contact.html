@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Currículum vitae - Agustín Fontaine Castelló</title>
+    <link rel="icon" type="image/x-icon" href="https://viarava.org.ar/wp-content/uploads/2016/09/Agustin-Fontaine-128.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/home/agustinfontaine/Programación/CV interactivo/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/d7bd1f0133.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/home/agustinfontaine/Programación/CV interactivo/index.html">
+        <img src="/home/agustinfontaine/Programación/CV interactivo/img/usuario.png" alt="logo" width="20" height="20" class="d-inline-block align-text-top">
+        <h1>Currículum Vitae</h1>
+      </a>
+    </div>
+  </nav>
+
+  <div id="nav-placeholder">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experiencia_laboral.html">Experiencia laboral</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estudios_complementarios.html">Estudios complementarios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+              </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Escribí aquí para buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  
+<div class="container">
+    
+    <h3>Datos de contacto</h3>
+    <div class="col-md-1"></div>
+    <p>
+        Islas Shettland del Sur 1139 <br>Capilla del Monte<br>
+    </p>
+   
+    <p><i class="fa fa-phone"></i> 
+        <abbr title="Phone">P</abbr>: 54 3517674602</p>
+    <p><i class="fa fa-envelope-o"></i> 
+        <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">agustinfontaine@gmail.com</a>
+    </p>
+    
+
+    <ul class="list-unstyled list-inline list-social-icons">
+        <li>
+            <a href="https://facebook.com/agustinfontaine"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com/agustinfontaine"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/agustinfontaine"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        </ul>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-8">
+        <h3>Enviame un mensaje</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Nombre completo:</label>
+                    <input type="text" class="form-control" id="name" required data-validation-required-message="Por favor ingresá tu nombre.">
+                    <p class="help-block"></p>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Teléfono:</label>
+                    <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por favor, ingresá tu número de teléfono.">
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Tu Email:</label>
+                    <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor, ingresá tu mail.">
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Mensaje:</label>
+                    <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                </div>
+            </div>
+            <div id="success"></div>
+
+            <div> 
+                <h6> Agradecimiento </h6>
+            </div>
+            <!-- Por fallas en el mensaje -->
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+    </div>
+</div>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
